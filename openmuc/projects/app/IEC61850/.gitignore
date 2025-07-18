@@ -1,0 +1,33 @@
+# Ignore build output
+/build/
+/bin/
+/out/
+
+# Ignore Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Eclipse files
+.classpath
+.project
+.settings/
+
+# Ignore logs
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled class files
+*.class
+
+# Ignore temporary files
+*.tmp
+*.swp
