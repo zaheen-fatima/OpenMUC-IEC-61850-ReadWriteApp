@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+    <driver id="iec61850">
+        <device id="ied1">
+
+            <deviceAddress>127.0.0.1:102</deviceAddress>
+            <settings>-lt 0001 -rt 0001 -a false</settings>
+
+
+            <channel id="healthStatus">
+                <channelAddress>IC3_F650PRO/LLN0.Health.stVal:ST</channelAddress>
+                <valueType>BOOLEAN</valueType>
+                <samplingInterval>2000</samplingInterval>
+                <loggingInterval>5000</loggingInterval>
+            </channel>
+
+
+
+            <channel id="breakerPosition">
+                <channelAddress>IC3_F650PRO/XCBR1.Pos.stVal:ST</channelAddress>
+                <valueType>BOOLEAN</valueType>
+                <samplingInterval>2000</samplingInterval>
+                <loggingInterval>5000</loggingInterval>
+            </channel>
+
+
+            <channel id="frequency">
+                <channelAddress>IC3_F650PRO/MMXU1.Hz.mag.f:MX</channelAddress>
+                <valueType>FLOAT</valueType>
+                <samplingInterval>2000</samplingInterval>
+                <loggingInterval>5000</loggingInterval>
+            </channel>
+
+        </device>
+    </driver>
+</configuration>
+
+

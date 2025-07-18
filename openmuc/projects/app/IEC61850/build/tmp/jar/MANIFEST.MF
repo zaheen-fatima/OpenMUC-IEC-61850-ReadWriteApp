@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org-openmuc-IEC61850
+Bundle-Version: 0.20.1
+Import-Package: org.osgi.service.component;version="[1.5,2)", org.osgi.s
+ ervice.component.annotations;version="[1.5,2)", org.openmuc.framework.d
+ ata;version="[0.20,1)", org.openmuc.framework.dataaccess;version="[0.20
+ ,1)",org.slf4j;version="[1.7,2)",*
+Export-Package: org.openmuc.framework.app.IEC61850cd;version=0.20.1
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/openmuc" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/openmuc" />
+            <option value="$PROJECT_DIR$/openmuc/projects/app/IEC61850" />
+            <option value="$PROJECT_DIR$/openmuc/projects/core/api" />
+            <option value="$PROJECT_DIR$/openmuc/projects/core/datamanager" />
+            <option value="$PROJECT_DIR$/openmuc/projects/core/spi" />
+            <option value="$PROJECT_DIR$/openmuc/projects/datalogger/amqp" />
+            <option value="$PROJECT_DIR$/openmuc/projects/datalogger/ascii" />
+            <option value="$PROJECT_DIR$/openmuc/projects/datalogger/mqtt" />
+            <option value="$PROJECT_DIR$/openmuc/projects/datalogger/slotsdb" />
+            <option value="$PROJECT_DIR$/openmuc/projects/datalogger/sql" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/aggregator" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/amqp" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/csv" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/ehz" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/iec60870" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/iec61850" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/iec62056p21" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/knx" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/math" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/mbus" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/modbus" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/mqtt" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/rest" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/snmp" />
+            <option value="$PROJECT_DIR$/openmuc/projects/driver/wmbus" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/amqp" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/filePersistence" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/mqtt" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/osgi" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/parser/openmuc" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/rest1" />
+            <option value="$PROJECT_DIR$/openmuc/projects/lib/ssl" />
+            <option value="$PROJECT_DIR$/openmuc/projects/server/iec61850" />
+            <option value="$PROJECT_DIR$/openmuc/projects/server/modbus" />
+            <option value="$PROJECT_DIR$/openmuc/projects/server/restws" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/base" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/channelaccesstool" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/channelconfigurator" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/dataexporter" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/dataplotter" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/mediaviewer" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/simpledemovisualisation" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/spi" />
+            <option value="$PROJECT_DIR$/openmuc/projects/webui/userconfigurator" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
