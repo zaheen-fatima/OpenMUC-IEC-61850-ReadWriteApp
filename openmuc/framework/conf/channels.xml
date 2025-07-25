@@ -12,6 +12,8 @@
                 <valueType>BOOLEAN</valueType>
                 <samplingInterval>2000</samplingInterval>
                 <loggingInterval>5000</loggingInterval>
+                <serverMapping id="modbus">HOLDING_REGISTERS:1000:INTEGER</serverMapping>
+
             </channel>
 
 
@@ -21,6 +23,9 @@
                 <valueType>BOOLEAN</valueType>
                 <samplingInterval>2000</samplingInterval>
                 <loggingInterval>5000</loggingInterval>
+
+                    <serverMapping id="modbus">HOLDING_REGISTERS:1002:INTEGER</serverMapping>
+
             </channel>
 
 
@@ -29,6 +34,8 @@
                 <valueType>FLOAT</valueType>
                 <samplingInterval>2000</samplingInterval>
                 <loggingInterval>5000</loggingInterval>
+                <serverMapping id="modbus">HOLDING_REGISTERS:1004:INTEGER</serverMapping>
+
             </channel>
 
         </device>

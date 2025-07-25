@@ -57,9 +57,8 @@ dependencies {
     osgibundles group: 'org.openmuc.framework', name: 'openmuc-lib-rest1', version: openmucVersion
 
  //   osgibundles group: 'org.openmuc.framework', name: 'openmuc-server-restws', version: openmucVersion
-   // osgibundles group: 'org.openmuc.framework', name: 'openmuc-server-iec61850', version: openmucVersion
-    //osgibundles group: 'org.openmuc.framework', name: 'openmuc-server-modbus', version: openmucVersion
-
+    osgibundles group: 'org.openmuc.framework', name: 'openmuc-server-iec61850', version: openmucVersion
+    osgibundles group: 'org.openmuc.framework', name: 'openmuc-server-modbus', version: openmucVersion
 //    osgibundles group: 'org.openmuc.framework', name: 'openmuc-driver-csv', version: openmucVersion
     //osgibundles group: 'org.openmuc.framework', name: 'openmuc-driver-math', version: openmucVersion
    // osgibundles group: 'org.openmuc.framework', name: 'openmuc-driver-aggregator', version: openmucVersion
